@@ -61,7 +61,7 @@ class services
 			if ($file['size'] > (1024 * 2)) {
 				
 				$uniqueImageName = time()."_".$file['name'];
-				if (move_uploaded_file($file['tmp_name'], $_SERVER['DOCUMENT_ROOT']."/final_exam/service_images/".$uniqueImageName)) {
+				if (move_uploaded_file($file['tmp_name'], $_SERVER['DOCUMENT_ROOT']."/service_images/".$uniqueImageName)) {
 					
 					$q = $this->con->query("INSERT INTO `services`(`service_cat`, `service_title`, `service_price`, `service_desc`, `service_image`, `service_keywords`) VALUES ('$category_id', '$service_name', '$service_price', '$service_desc', '$uniqueImageName', '$service_keywords')");
 
@@ -109,7 +109,7 @@ class services
 			if ($file['size'] > (1024 * 2)) {
 				
 				$uniqueImageName = time()."_".$file['name'];
-				if (move_uploaded_file($file['tmp_name'], $_SERVER['DOCUMENT_ROOT']."/ecommerce-app-h/service_images/".$uniqueImageName)) {
+				if (move_uploaded_file($file['tmp_name'], $_SERVER['DOCUMENT_ROOT']."/service_images/".$uniqueImageName)) {
 					
 					$q = $this->con->query("UPDATE `services` SET 
 										`service_cat` = '$category_id', 
