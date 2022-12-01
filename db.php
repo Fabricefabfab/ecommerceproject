@@ -3,9 +3,9 @@
 require "config/constants.php";
 
 $servername = "us-cdbr-east-06.cleardb.net";
-$username = "b418eaaffbbae2";
-$password = "261f9bfb";
-$db = "heroku_8ad4d708550d9cd";
+$username = "be2703aa38ff97";
+$password = "42423569";
+$db = "heroku_1553afc4b8a3a75";
 
 // Create connection
 $con = mysqli_connect($servername, $username, $password,$db);
