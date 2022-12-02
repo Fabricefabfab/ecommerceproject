@@ -55,7 +55,7 @@ if(isset($_POST["getservice"])){
 							<div class='panel panel-success'>
 								<div class='panel-heading'>$pro_title</div>
 								<div class='panel-body'>
-									<img src="service_images/$pro_image" style="width:220px; height:250px;"/>
+									<img src='service_images/$pro_image' style='width:220px; height:250px;'/>
 								</div>
 								<div class='panel-heading'>".CURRENCY.". $pro_price
 									<button pid='$pro_id' style='float:right;' id='service' class='btn btn-warning'>Get the Service</button>
@@ -89,7 +89,7 @@ if(isset($_POST["get_seleted_Category"]) || isset($_POST["search"])){
 							<div class='panel panel-success'>
 								<div class='panel-heading'>$pro_title</div>
 								<div class='panel-body'>
-									<img src="service_images/$pro_image" style="width:220px; height:250px;"/>
+									<img src='service_images/$pro_image' style='width:220px; height:250px;'/>
 								</div>
 								<div class='panel-heading'>$.$pro_price
 								<button pid='$pro_id' style='float:right;' id='service' class='btn btn-warning'>Get the Service</button>
