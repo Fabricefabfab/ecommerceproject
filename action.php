@@ -55,7 +55,7 @@ if(isset($_POST["getservice"])){
 							<div class='panel panel-success'>
 								<div class='panel-heading'>$pro_title</div>
 								<div class='panel-body'>
-									<img src='https://ecommerceproject.herokuapp.com/service_images/$pro_image' style='width:220px; height:250px;'/>
+									<img src='service_images/$pro_image' style='width:220px; height:250px;'/>
 								</div>
 								<div class='panel-heading'>".CURRENCY.". $pro_price
 									<button pid='$pro_id' style='float:right;' id='service' class='btn btn-warning'>Get the Service</button>
@@ -89,7 +89,7 @@ if(isset($_POST["get_seleted_Category"]) || isset($_POST["search"])){
 							<div class='panel panel-success'>
 								<div class='panel-heading'>$pro_title</div>
 								<div class='panel-body'>
-									<img src='https://ecommerceproject.herokuapp.com/service_images/$pro_image' style='width:220px; height:250px;'/>
+									<img src='service_images/$pro_image' style='width:220px; height:250px;'/>
 								</div>
 								<div class='panel-heading'>$.$pro_price
 								<button pid='$pro_id' style='float:right;' id='service' class='btn btn-warning'>Get the Service</button>
@@ -244,7 +244,7 @@ if (isset($_POST["Common"])) {
 								</div>
 								<input type="hidden" name="service_id[]" value="'.$service_id.'"/>
 								<input type="hidden" name="" value="'.$cart_item_id.'"/>
-								<div class="col-md-2"><img class="img-responsive" src="https://ecommerceproject.herokuapp.com/service_images/'.$service_image.'"></div>
+								<div class="col-md-2"><img class="img-responsive" src="service_images/'.$service_image.'"></div>
 								<div class="col-md-2">'.$service_title.'</div>
 								<div class="col-md-2"><input type="text" class="form-control qty" value="'.$qty.'" ></div>
 								<div class="col-md-2"><input type="text" class="form-control price" value="'.$service_price.'" readonly="readonly"></div>
