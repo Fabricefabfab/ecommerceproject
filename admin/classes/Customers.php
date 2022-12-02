@@ -27,7 +27,7 @@ class Customers
 
 
 	public function getCustomersOrder(){
-		$query = $this->con->query("SELECT o.order_id, o.product_id, o.qty, o.trx_id, o.p_status, p.product_title, p.product_image FROM orders o JOIN services p ON o.product_id = p.product_id");
+		$query = $this->con->query("SELECT o.order_id, o.service_id, o.qty, o.p_status, p.service_title, p.service_image FROM orders o JOIN services p ON o.service_id = p.service_id");
 		$ar = [];
 		if (@$query->num_rows > 0) {
 			while ($row = $query->fetch_assoc()) {
