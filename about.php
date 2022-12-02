@@ -63,7 +63,7 @@
 				<span>Events</span>
 
             </div>
-		<p class="text">welksdf</p>
+		<p class="text"><br>For more information feel free to contact us at fabrice.mukarage@gmail.com <br> or call us at +250787474784</p>
         </div>
     </div>
 </body>
