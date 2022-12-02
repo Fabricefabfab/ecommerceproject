@@ -101,7 +101,7 @@ require "config/constants.php";
 						// here our table name is college
 						$sql = "insert into Themessage (name, phone, message) values ('$name','$phone','$message')";
 						if(mysqli_query($con, $sql)){
-							echo "<center><h3>welcome done! You can now pay</h3></center>";
+							echo "<center><h3>well done! You can now pay</h3></center>";
 						} else{
 							echo "ERROR: Hush! Sorry $sql. "
 								. mysqli_error($con);
