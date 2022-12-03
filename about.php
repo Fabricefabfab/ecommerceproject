@@ -48,7 +48,7 @@
             <h1>About Us</h1>
             <p class="text">
 			Emunah Group Ltd is a company that offers various services to people in Rwanda, 
-			including the essay way of bank and Momo deposits and withdrawals,
+			including the easy way of bank and Momo deposits and withdrawals,
 			 fliers, printing, and scanning. With this E-commerce website, We will help you get any type of flier you want within a day. 
 			 Fliers are classified into many categories; 
 			 the customers is requested to submit information about the flier they wish to have and the payment is done online after requesting the flier
@@ -63,7 +63,7 @@
 				<span>Events</span>
 
             </div>
-		<p class="text"><br>For more information feel free to contact us at <strong>fabrice.mukarage@gmail.com</strong> <br> or call us at <strong>+250787474784</strong></p>
+		<p class="text"><br>For more information feel free to contact us at <strong>fabrice.mukarage@gmail.com</strong> <br> or call us at <strong>+250783932356</strong></p>
         </div>
     </div>
 </body>
