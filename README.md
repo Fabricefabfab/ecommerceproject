@@ -44,13 +44,15 @@ To set up the Fliers’ Service E-commerce locally, follow these steps:
 1.	Clone the repository to your local machine:
    
 git clone https://github.com/Fabricefabfab/ecommerceproject.git 
-3.	Set up a web server with PHP support, such as Apache or Nginx, and configure it to serve the project's files.
-4.	Import the provided database schema to your database server.
-5.	Configure the database connection in the project's configuration files.
-6.	Start the web server and open the website in your browser.
+
+2.	Set up a web server with PHP support, such as Apache or Nginx, and configure it to serve the project's files.
+3.	Import the provided database schema to your database server.
+4.	Configure the database connection in the project's configuration files.
+5.	Start the web server and open the E-commerce in your browser.
 
 ## Usage
 • Client: Users can visit the website, browse fliers, sign up, and request fliers by providing necessary information and making online payments.
+
 • Admin: The admin panel allows administrators to manage the e-commerce application, including adding new fliers, managing user accounts, and overseeing payments.
 
 ## 🤝Contributing
