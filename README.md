@@ -4,8 +4,8 @@
 - [Introduction](#introduction)
 - [Project Overview](#project-overview)
 - [Architecture](#architecture)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
+- [Technologies Used](#technologies used)
+- [Getting Started](#getting started)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
@@ -32,14 +32,14 @@ This E-commerce website is built using a multi-tier architecture with the follow
 •	Model-View-Controller (MVC): The MVC architectural pattern is used to organize the code, although not fully implemented.
 •	Hosting: The website is hosted on Heroku, ensuring accessibility for users anytime, anywhere.
 
-## 💻 Technologies Used
+### 💻 Technologies Used
 - HTML and CSS for front-end design
 - Bootstrap for responsive web layout
 - MySQL for database management
 - JavaScript for dynamic web elements
 - PHP for back-end data retrieval and processing
 
-## 📖 Getting Started
+### 📖 Getting Started
 To set up the Fliers’ Service E-commerce locally, follow these steps:
 1.	Clone the repository to your local machine:
    
