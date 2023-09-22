@@ -3,7 +3,7 @@
 ## 📗 Table of Contents
 - [Introduction](#introduction)
 - [Project Overview](#project-overview)
-- [Features](#features)
+- [Architecture](#architecture)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
