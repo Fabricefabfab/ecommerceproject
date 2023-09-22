@@ -51,7 +51,7 @@ git clone https://github.com/Fabricefabfab/ecommerceproject.git
 5.	Start the web server and open the E-commerce in your browser.
 
 ## Usage
-• Client: Users can visit the website, browse fliers, sign up, and request fliers by providing necessary information and making online payments.
+• Client: Users can visit the E-commerce, browse fliers, sign up, and request fliers by providing necessary information and making online payments.
 
 • Admin: The admin panel allows administrators to manage the e-commerce application, including adding new fliers, managing user accounts, and overseeing payments.
 
