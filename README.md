@@ -4,8 +4,8 @@
 - [Introduction](#introduction)
 - [Project Overview](#project-overview)
 - [Architecture](#architecture)
-- [Technologies Used](#technologies used)
-- [Getting Started](#getting started)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
